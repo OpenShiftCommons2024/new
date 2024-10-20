@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new"
+  annotations:
+    github.com/project-slug: undefined/undefined
+    backstage.io/techdocs-ref: dir:.
+    #backstage.io/techdocs-ref: url:https://github.com/org-name/repo-name
+spec:
+  type: website
+  lifecycle: development
+  owner: "group:default/platform_engineers"
